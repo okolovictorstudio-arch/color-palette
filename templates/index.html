@@ -19,7 +19,7 @@
     <div class="upload-area" id="uploadArea">
       <input type="file" id="fileInput" accept="image/*" hidden />
       <div class="upload-content" id="uploadContent">
-        <div class="upload-icon">🎨</div>
+        <img src="{{ url_for('static', filename='upload-icon.png') }}" class="upload-icon" alt="upload icon" />
         <p class="upload-text">Drop your image here</p>
         <p class="upload-sub">or click to browse</p>
       </div>
